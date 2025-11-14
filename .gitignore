@@ -1,0 +1,14 @@
+# Ignore assets folder
+/assets/
+
+# Ignore README
+README.md
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment folders
+venv/
+.env/
