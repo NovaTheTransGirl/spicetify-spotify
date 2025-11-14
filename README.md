@@ -49,7 +49,7 @@ git clone https://github.com/NovaTheTransGirl/spicetify-spotify/tree/main/Spicet
 
 Make sure you have Python installed. Then run:
 
-python setup_spicetify_downloader.py
+python install.py
 
 This script will:
 
