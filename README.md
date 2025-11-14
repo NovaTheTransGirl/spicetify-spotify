@@ -17,7 +17,7 @@
 - Runs a local server using Python (`flask`) for handling downloads.  
 - Automatic installation of required Python modules (`flask`, `requests`, `flask_cors`).  
 - Adds a startup shortcut to run the downloader automatically.  
-- Visual server status in Spotify’s top bar: `✔ Server running` / `✖ Server offline`.  
+- Visual server status in Spotify’s bottom bar: `✔ Server running` / `✖ Server offline`.  
 
 ---
 
@@ -44,3 +44,61 @@
 ```bash
 git clone https://github.com/yourusername/spotify-downloader.git
 cd spotify-downloader
+```
+
+    Run the setup script
+
+Make sure you have Python installed. Then run:
+
+python setup_spicetify_downloader.py
+
+This script will:
+
+    Create the Spicetify Extensions folder if it doesn’t exist.
+
+    Install required Python modules (flask, requests, flask_cors).
+
+    Copy the downloader scripts into your Spicetify Extensions folder.
+
+    Create a startup shortcut to run the downloader automatically.
+
+    Apply the Spicetify changes.
+
+Usage
+
+    Open Spotify with Spicetify applied.
+
+    Right-click any track and select Download from the context menu.
+
+    The downloader server will handle the track, showing notifications:
+
+✓ Download Started: <Track Name>
+⟳ Download 50%: <Track Name>
+↓ Download Complete: <Track Name>
+✗ Download Failed
+
+    The top bar will indicate server status:
+
+✔ Server running
+✖ Server offline
+
+Folder Structure
+
+spotify-downloader/
+│
+├─ scripts/
+│   ├─ SPOTIFY_DOWNLOAD.py
+│   └─ SPOTIFY_DOWNLOAD.js
+└─ install.py
+
+Requirements
+
+    Python 3.10+
+
+    Spicetify installed and functional
+
+    Windows OS (uses %LOCALAPPDATA% and %APPDATA% paths)
+
+Contributing
+
+Feel free to submit issues, pull requests, or feature suggestions. Make sure to keep scripts compatible with the latest Spotify & Spicetify versions.
