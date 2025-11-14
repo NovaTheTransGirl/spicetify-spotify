@@ -77,8 +77,6 @@ Usage
 ↓ Download Complete: <Track Name>
 ✗ Download Failed
 
-    The top bar will indicate server status:
-
 ✔ Server running
 ✖ Server offline
 
