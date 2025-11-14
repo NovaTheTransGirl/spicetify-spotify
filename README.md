@@ -42,8 +42,7 @@
 1. **Clone the repository**  
 
 ```bash
-git clone https://github.com/yourusername/spotify-downloader.git
-cd spotify-downloader
+git clone https://github.com/NovaTheTransGirl/spicetify-spotify
 ```
 
     Run the setup script
