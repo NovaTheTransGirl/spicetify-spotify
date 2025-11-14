@@ -82,15 +82,6 @@ Usage
 ✔ Server running
 ✖ Server offline
 
-Folder Structure
-
-spotify-downloader/
-│
-├─ scripts/
-│   ├─ SPOTIFY_DOWNLOAD.py
-│   └─ SPOTIFY_DOWNLOAD.js
-└─ install.py
-
 Requirements
 
     Python 3.10+
