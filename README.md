@@ -42,7 +42,7 @@
 1. **Clone the repository**  
 
 ```bash
-git clone https://github.com/NovaTheTransGirl/spicetify-spotify
+git clone https://github.com/NovaTheTransGirl/spicetify-spotify/tree/main/SpicetifySpotifyDownloader
 ```
 
     Run the setup script
